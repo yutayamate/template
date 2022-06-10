@@ -1,0 +1,19 @@
+{
+    "name": "template",
+    "build": {
+        "dockerfile": "../Dockerfile",
+        "context": "../"
+    },
+    "containerEnv": {
+        // "PROJECT_ENV": "${localEnv:PROJECT_ENV}"
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "davidanson.vscode-markdownlint",
+                "editorconfig.editorconfig"
+            ],
+            "settings": {}
+        }
+    }
+}
