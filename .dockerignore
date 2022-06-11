@@ -1,0 +1,7 @@
+dist/
+build/
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+!.vscode/tasks.json
+.env
